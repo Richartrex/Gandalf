@@ -1,0 +1,51 @@
+
+.blockgandalf{
+	position: absolute;
+	opacity: 0.7;
+}
+
+#reward {
+	position: absolute;
+	opacity: 0.7;
+	border: 1px solid white;
+	background-color: #eff2f2;	
+	border-radius: 1em;
+	color: black;	
+	top: 3px;
+	left: 90px;
+	font-size: 2.5em;
+	padding: 15px;
+}
+
+#gandtitre {
+	position: absolute;
+	color: white;
+	top: 500px;
+	left: 200px;
+	font-size: 1.7em;
+	opacity: 0;	
+}	
+
+#gand {
+	position: absolute;
+	color: white;	
+	top: 200px;
+	left: 100px;
+	font-size: 4.5em;
+}
+
+.blockgandalf:hover  #gand{
+	display: none;
+}
+
+.blockgandalf:hover #reward {
+	display: none;
+}
+
+.blockgandalf:hover{
+	opacity: 1;
+}
+
+.blockgandalf:hover #gandtitre{
+	opacity: 1;
+}
